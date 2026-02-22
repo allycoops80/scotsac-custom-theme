@@ -12,7 +12,7 @@ $show_sidebar = scotsac_show_sidebar();
 ?>
 
     <?php if ( $show_sidebar ) : ?>
-    <div id="content" class="column sidebar-second" role="main">
+    <div id="content" class="column" role="main">
     <?php else : ?>
     <div id="content" class="column no-sidebars" role="main">
     <?php endif; ?>

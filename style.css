@@ -192,7 +192,7 @@ table {
    Header
    ============================================================================= */
 #header-wrapper {
-  background-color: #1a3a5c;
+  background-color: #193a5b;
 }
 
 #header {
@@ -203,12 +203,29 @@ table {
 
 /* Top bar: social icons */
 .region-header-top {
-  text-align: right;
   padding: 5px 10px;
-  background-color: #122840;
+  background-color: #193a5b;
+  overflow: hidden;
+}
+
+.header-top__members-link,
+.header-top__members-link:link,
+.header-top__members-link:visited {
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+.header-top__members-link:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .region-header-top p {
+  float: right;
   margin: 0;
   line-height: 1;
 }
@@ -386,19 +403,19 @@ table {
   float: left;
   width: 70%;
   margin-left: 0;
-  margin-right: -70%;
+  margin-right: 0;
 }
 
 .sidebar-second .sidebars {
-  float: left;
-  width: 100%;
+  float: right;
+  width: 30%;
 }
 
 .sidebar-second .region-sidebar-second {
-  float: left;
-  width: 30%;
-  margin-left: 70%;
-  margin-right: -100%;
+  float: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .page__title {
@@ -675,6 +692,11 @@ article header {
     float: none;
     width: 100%;
     margin: 0;
+  }
+
+  .sidebar-second .sidebars {
+    float: none;
+    width: 100%;
   }
 
   .sidebar-second .region-sidebar-second {
