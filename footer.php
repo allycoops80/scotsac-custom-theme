@@ -52,8 +52,8 @@
             } else {
                 ?>
                 <ul class="menu">
-                    <li><a href="<?php echo esc_url( home_url( '/learn-to-dive' ) ); ?>"><?php esc_html_e( 'Learn to Dive', 'scotsac' ); ?></a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/diving-in-scotland' ) ); ?>"><?php esc_html_e( 'Diving in Scotland', 'scotsac' ); ?></a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/learn-dive' ) ); ?>"><?php esc_html_e( 'Learn to Dive', 'scotsac' ); ?></a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/diving-scotland' ) ); ?>"><?php esc_html_e( 'Diving in Scotland', 'scotsac' ); ?></a></li>
                     <li><a href="<?php echo esc_url( home_url( '/faq' ) ); ?>"><?php esc_html_e( 'FAQ', 'scotsac' ); ?></a></li>
                 </ul>
                 <?php

@@ -156,11 +156,6 @@ function scotsac_social_links() {
             'icon'  => 'fb',
         ],
         [
-            'url'   => 'https://twitter.com/ScotSAC',
-            'label' => 'Twitter / X',
-            'icon'  => 'tw',
-        ],
-        [
             'url'   => 'https://www.youtube.com/channel/UCVKEJX9jRk5iI81i9hA1yww/feed',
             'label' => 'YouTube',
             'icon'  => 'yt',

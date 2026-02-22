@@ -23,9 +23,14 @@
 
     <header class="header" id="header" role="banner">
 
-        <!-- Top bar: social icons -->
+        <!-- Top bar: members portal link + social icons -->
         <div class="second">
             <div class="region region-header-top">
+                <a href="https://scotsac.justgo.com/"
+                   class="header-top__members-link"
+                   target="_blank" rel="noopener noreferrer">
+                    <?php esc_html_e( 'Members Portal', 'scotsac' ); ?>
+                </a>
                 <?php
                 $social_links = scotsac_social_links();
                 if ( $social_links ) :
